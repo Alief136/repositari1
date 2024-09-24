@@ -52,12 +52,20 @@ section p {
 .box {
     border: 2px solid #1e1e1e;
     padding: 20px;
-    margin: 5px;
+    margin: 10px;
     background-color: rgb(62, 68, 68);
     border-radius: 5px;
+    margin-left: 0;
 }
 
 ul {
-    margin: 5px 0;
+    margin: 5px;
     padding-left: 20px; 
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
 }
