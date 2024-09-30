@@ -65,7 +65,8 @@
 
         <section>
             <h2>Menambahkan Gambar</h2>
-            <img src="DarkCloud.jpg" alt="">
+            <img src="DarkCloud2.jpg" alt="" width="300"
+            height="200">
         </section>
 
         <hr>
@@ -76,30 +77,73 @@
             <table>
                 <tr>
                     <td>Baris 1, Kolom 1</td>
-                    <td>Baris 1, Kolom 1</td>
-                    <td>Baris 1, Kolom 1</td>
+                    <td>Baris 1, Kolom 2</td>
+                    <td>Baris 1, Kolom 3</td>
                 </tr>
                 <tr>
 
                 </tr>
-                    <td>Baris 1, Kolom 1</td>
-                    <td>Baris 1, Kolom 1</td>
-                    <td>Baris 1, Kolom 1</td>
+                    <td>Baris 2, Kolom 1</td>
+                    <td>Baris 2, Kolom 2</td>
+                    <td>Baris 2, Kolom 3</td>
                 </tr>
                 <tr>
 
                 </tr>
-                    <td>Baris 1, Kolom 1</td>
-                    <td>Baris 1, Kolom 1</td>
-                    <td>Baris 1, Kolom 1</td>
+                    <td>Baris 3, Kolom 1</td>
+                    <td>Baris 3, Kolom 2</td>
+                    <td>Baris 3, Kolom 3</td>
                 </tr>
                 <tr>
                 </tr>
-                    <td>Baris 1, Kolom 1</td>
-                    <td>Baris 1, Kolom 1</td>
-                    <td>Baris 1, Kolom 1</td>
+                    <td>Baris 4, Kolom 1</td>
+                    <td>Baris 4, Kolom 2</td>
+                    <td>Baris 4, Kolom 3</td>
                 </tr>
             </table>
+        </section>
+
+        <hr>
+
+        <section>
+            <h2>Membuat Form</h2>
+            <form action="formulir.html" method="get">
+
+                Nama: <input type="text" name="nama" value="Nama Kamu">
+                <br>
+                Password : <input type="password" name="password">
+                <br>
+
+                Jenis Kelamin :
+                <input type="radio" name="Jenis Kelamin" value="laki-laki" checked>
+                <input type="radio" name="Jenis Kelamin" value="perempuan" />
+                perempuan
+
+                <br>
+                
+                Hobi : <input type="checkbox" name="hobi baca" /> Membaca Buku
+                <input type="checkbox" name="hobi baca" checked/> Menulis
+                <input type="checkbox" name="hobi baca" /> Memancing
+
+                <br>
+
+                Asal Kota : 
+                <select name="asal_kota">
+                    <option value="Kota Jakarta"> Jakarta</option>
+                    <option value="Kota Bandung"> Bandung</option>
+                    <option value="Kota Semarang" selected> Semarang </option>
+                </select>
+                
+                <br>
+
+                Komentar Anda :
+                <textarea name="komentar" rows="5" cols="20">Komentar</textarea>
+
+                <br>
+                
+                <input type="submit" value="Mulai Proses!">
+                        
+            </form>
         </section>
     </body>
 
