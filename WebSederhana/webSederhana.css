@@ -1,0 +1,68 @@
+/* webSederhana.css */
+
+/* Umum */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9; /* Putih dengan sedikit abu-abu untuk kesan lembut */
+    color: #4a4a4a; /* Abu-abu yang tidak terlalu pekat untuk teks */
+}
+
+header {
+    background-color: #e0e0e0; /* Abu-abu muda untuk header */
+    color: #333; /* Teks lebih gelap agar terbaca dengan baik */
+    padding: 15px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex; /* Menggunakan flexbox */
+    justify-content: center; /* Memusatkan elemen secara horizontal */
+    background-color: #e0e0e0; /* Warna abu-abu muda */
+}
+
+nav ul li {
+    margin: 0 15px; /* Menambahkan jarak antar item navigasi */
+}
+
+nav ul li a {
+    display: block;
+    color: #333;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #d1d1d1;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: #ffffff; /* Putih bersih untuk konten utama */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sedikit bayangan untuk dimensi */
+}
+
+/* Section warna alternatif */
+.section2 {
+    background-color: #f0f0f0; /* Abu-abu sangat lembut untuk variasi */
+}
+
+footer {
+    display: flex; /* Flexbox */
+    justify-content: center; /* Memusatkan secara horizontal */
+    align-items: center; /* Memusatkan secara vertikal */
+    padding: 10px;
+    background-color: #e0e0e0;
+    color: #333;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 30px; /* Atur tinggi sesuai kebutuhan */
+}
