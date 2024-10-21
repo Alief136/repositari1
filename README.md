@@ -3,3 +3,5 @@ Pertemuan_1 ( Tugas 1 ) - Sep 23
 Belajar html ( Tugas 2 ) - Sep 30
 <br>
 HTML_Lanjutan ( Tugas 3) - Oct 14
+<br>
+WebSederhana ( Tugas 4) - oct 21
