@@ -36,21 +36,20 @@ body {
     text-decoration: none;
     font-weight: 500;
     margin-left: 35px;
-    padding: 10px 15px; /* Add padding for the box effect */
-    border-radius: 5px; /* Rounded corners */
-    transition: background-color 0.3s, color 0.3s; /* Smooth transition */
+    padding: 10px 15px; 
+    border-radius: 5px; 
+    transition: background-color 0.3s, color 0.3s; 
 }
 
 .navbar a:hover {
-    background-color: #00abf0; /* Background color on hover */
-    color: #ffffff; /* Change text color on hover */
+    background-color: #00abf0;
+    color: #ffffff;
 }
 
 html {
     scroll-behavior: smooth;
 }
 
-/* Full-Screen Section Base Styles */
 section {
     height: 100vh;
     display: flex;
