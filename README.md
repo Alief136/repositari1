@@ -7,3 +7,5 @@ HTML_Lanjutan ( Tugas 3) - Oct 14
 WebSederhana ( Tugas 4 ) - oct 21
 <br>
 Implementasi JavaScript ( Tugas 6 ) - oct 31
+<br>
+Web Profil { Tugas 6 ) - Nov 1
