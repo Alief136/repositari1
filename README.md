@@ -15,3 +15,5 @@ PHP_Dasar ( Pertemuan 7 ) - Nov 8
 Percabangan ( Pertemuan 9 ) - Nov 17
 <br>
 Perulangan ( Pertemuan 10 ) - nov 30
+<br>
+CRUD Basis Data ( Pertemuan 11 ) - Des 6
